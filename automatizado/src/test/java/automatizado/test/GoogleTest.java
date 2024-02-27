@@ -40,7 +40,8 @@ public class GoogleTest extends BaseTest{
      String resultado = googlePage.obterResultadoDaPesquisa();
 
      assertTrue(resultado, resultado.contains("resultados"));
-
+ 
+     // verificando alteração
     }
 
 }
